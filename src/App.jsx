@@ -12,9 +12,9 @@ function App() {
   const currencyNames = Object.keys(currOptions);
 
   const swap = () => {
-    // Swap currencies
     setFrom(to);
     setTo(from);
+    // fuck i donot know why this part of swapping is not working
     setAmount(convertedAmount);
     setConvertedAmount(amount);
   };
